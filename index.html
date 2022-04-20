@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>깃 저장소</title>
 </head>
 <body>
-    <h1>3</h1>
+    <h1>깃 저장 하는방법 및 수정하는법</h1>
+    <span>
+        git clone _해당 저장소 git url<br />
+        깃 파일을 가져와서 작업 할수 있도록 세팅 해준다.
+    </span>
+    <p>
+        $ git init<br />
+        # 현재 프로젝트에서 변경사항 추적(버전 관리)을 시작<br />
+        <br />
+        $ git add index.html<br />
+        # 변경사항을 추적할 특정 파일(index.html)을 지정<br />
+        <br />
+        git status<br />
+        <br />
+        git add . # 모든 파일의 변경사항을 추적하도록 지정<br />
+        <br />
+        git status<br />
+        <br />
+        $ git commit -m '프로젝트 생성'<br />
+        # 메시지(-m)와 함께 버전을 생성.<br />
+        <br />
+        git commit -m 'Start project'<br />
+        <br />
+        프로젝트 생성 확인<br />
+        <br />
+        git log 로 확인 하기<br />
+    </p>
 </body>
 </html>
