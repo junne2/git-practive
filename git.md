@@ -148,3 +148,5 @@ Automatic merge failed; fix conflicts and then commit the result.
 이경우 충돌된 부분을 확인하여 code를 수정하고
 
 다시 커밋 하여 브랜치를 병합해주면 된다. 이와 같은 방식을 'non fast-forward 병합’이라고 한다.
+
+연습해보자
